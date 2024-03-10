@@ -23,7 +23,7 @@ const NavMobile = () => {
 
   return (
     <div>
-    <span className=' relative z-40 top-4 right-12'><Hamburger toggled={showMenu} toggle={setShowMenu} /></span>
+    <span className=' relative z-40 top-4 right-4'><Hamburger toggled={showMenu} toggle={setShowMenu} /></span>
     {showMenu && 
       
       <motion.ul animate={{ x : -window.innerWidth/3}}   className=' top-0 z-20  h-screen w-1/2 fixed flex flex-col  bg-[#431f47] duration-500 ease-linear'>
