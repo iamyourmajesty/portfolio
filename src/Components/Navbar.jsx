@@ -23,11 +23,11 @@ const NavMobile = () => {
 
   return (
     <div>
-    <span className=' relative z-40 top-4 right-4'><Hamburger toggled={showMenu} toggle={setShowMenu} /></span>
+    <span className=' relative z-40 top-4 right-12'><Hamburger toggled={showMenu} toggle={setShowMenu} /></span>
     {showMenu && 
       
       <motion.ul animate={{ x : -window.innerWidth/3}}   className=' top-0 z-20  h-screen w-1/2 fixed flex flex-col  bg-[#431f47] duration-500 ease-linear'>
-      <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
+      <li className=' my-8 mx-4 mt-24 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/about' className=' flex'><BsPerson className=' mr-2 mt-1'/>About</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Project</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/resume' className=' flex'><CgFileDocument className=' mr-2 mt-1'/>Resume</NavLink></li>
@@ -42,7 +42,7 @@ const NavMobile = () => {
        }
       
       <motion.ul animate={{ x : 100}}   className=' z-20 h-screen w-1/2 fixed top-0 flex flex-col  bg-[#431f47] duration-500 ease-linear'>
-      <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
+      <li className=' my-8 mx-4 mt-24 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/about' className=' flex'><BsPerson className=' mr-2 mt-1'/>About</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Project</NavLink></li>
       <li className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/resume' className=' flex'><CgFileDocument className=' mr-2 mt-1'/>Resume</NavLink></li>
