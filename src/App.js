@@ -7,8 +7,7 @@ import Project from './Pages/Project'
 import Resume from './Pages/Resume'
 import NotFound from './Pages/NotFound'
 import Navbar from './Components/Navbar'
-import Lottie from  "lottie-react";
-import nightsky from "./LottieFiles/night-sky.json";
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -26,7 +25,10 @@ const App = () => {
     <Route path='*' element={<NotFound/>}/>
     </Route>
     </Routes>
+
+    <Footer/>
     </div>
+    
     
   )
 }
