@@ -33,9 +33,11 @@ const Resume = () => {
   return (
     <div className=' relative -z-10'>
      
-      <Document file={pdf} className="resumeview">
+      <div className=' flex justify-center items-center'>
+      <Document file={pdf} className="resumeview shadow-2xl mt-10">
           <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
       </Document>
+      </div>
      
 
       {
