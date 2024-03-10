@@ -10,8 +10,13 @@ module.exports = {
     fontFamily : {
       logoFont : ['Permanent Marker','cursive'],
     },
-    extend: {},
+    extend: {
+      backgroundImage : {
+        'night-sky-background' : "url('./Images/beautiful-shining-stars-night-sky.jpg')"
+      }
+    },
   },
   plugins: [],
 }
 
+ 
