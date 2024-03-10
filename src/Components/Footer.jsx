@@ -10,9 +10,9 @@ const Footer = () => {
       <h4>Copyright &copy; 2024</h4>
       <div className=' flex gap-4 '>
         <Link className=' hover:text-[black]' href="https://github.com/iamyourmajesty" target='_blank'><FaGithub/></Link>
-        <Link className=' hover:text-[black]' href="https://www.linkedin.com/in/devansh-sahni/" target='_blank'><FaLinkedin/></Link>
-        <Link className=' hover:text-[black]' href='mailTo:devanshsahni@gmail.com' target='_blank'><GrMail/></Link>
-        <Link className=' hover:text-[black]' href="https://leetcode.com/sahni1403/" target="_blank"><SiLeetcode/></Link>
+        <Link className=' hover:text-[black]' href="https://www.linkedin.com/in/prince-pandey-/" target='_blank'><FaLinkedin/></Link>
+        <Link className=' hover:text-[black]' href='mailTo:princepandey2784@gmail.com' target='_blank'><GrMail/></Link>
+        <Link className=' hover:text-[black]' href="https://leetcode.com/princepandey2784/" target="_blank"><SiLeetcode/></Link>
       </div>
     </footer>
   )
