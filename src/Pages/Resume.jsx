@@ -31,26 +31,24 @@ const Resume = () => {
 
 
   return (
-    <div className=' relative -z-10'>
+   <>
+   <div className=' relative -z-10'>
      
-      <div className=' flex justify-center items-center'>
-      <Document file={pdf} className="resumeview shadow-2xl mt-10">
-          <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
-      </Document>
-      </div>
-     
-
-      {
-
-        <Link to={pdf} target='_blank' download="Prince's Resume" className=' flex items-center justify-center mt-5 ' >
-      <button className=' bg-bgColor text-white px-4 rounded-md flex py-2 cursor-pointer hover:bg-[#595858] ' type='button'>
-      <BsDownload className=' mt-1 mr-2'/> Download CV
-      </button>
-      </Link>
-      }
-      
-      
-    </div>
+   <div className=' flex justify-center items-center'>
+   <Document file={pdf} className="resumeview shadow-2xl mt-10">
+       <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
+   </Document>
+   </div>
+   
+   
+ </div>
+ <Link to={pdf} target='_blank' download="Prince's Resume" className=' flex items-center justify-center mt-5 ' >
+   <button className=' bg-bgColor text-white px-4 rounded-md flex py-2  cursor-pointer hover:bg-[#595858] ' type='button'>
+   <BsDownload className=' mt-1 mr-2'/> Download CV
+   </button>
+   </Link>
+   
+   </>
 
   )
 }

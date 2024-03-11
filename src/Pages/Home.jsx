@@ -51,7 +51,7 @@ const Home = () => {
         </Tilt>
       </div>
       <ContactMe/>
-      <Footer/>
+     
 
       <ToastContainer/>
     </div>

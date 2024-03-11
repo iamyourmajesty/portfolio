@@ -22,7 +22,7 @@ const Skills = ({skill}) => {
     }
     
   return (
-    <div title={skill} className='SkillBox text-4xl sm:text-5xl md:text-7xl lg:text-9xl  shadow-md  m-5 '>
+    <div title={skill} className='SkillBox text-4xl sm:text-5xl md:text-7xl lg:text-9xl  shadow-md  m-5 cursor-pointer hover:scale-125'>
       {icon[skill]}
     </div>
   )

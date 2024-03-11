@@ -11,9 +11,9 @@ const About = () => {
   return (
     <>
       <div className='AboutPage md:flex'>
-        <div className=' m-10 mx-20 w-3/4'>
+        <div className=' m-10  w-3/4 mx-auto sm:mx-20'>
           <h1 className='AboutTextHeading text-2xl' >Get to <b className='text-[blue]'>know</b> me!</h1>
-          <p>
+          <p >
             Hi, my name is <b className='text-[blue]'>Prince Pandey</b> and I am from Muzaffarpur, India.
             I'm a <b className='text-[blue]'>MERN stack web developer</b> and a final year college student pursuing <b className='text-[blue]'>B.Tech</b>. <br/><br/>
             I have done an internship as a <b className='text-[blue]'>Frontend developer Intern</b> at Chakraborty and Lahkar Innovation Pvt. Ltd. which is a fintech startup.
