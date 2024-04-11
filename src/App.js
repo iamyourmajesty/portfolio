@@ -8,7 +8,7 @@ import Resume from './Pages/Resume'
 import NotFound from './Pages/NotFound'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-
+import Payment from './Pages/Payment'
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
     <Route path='/about' element={<About/>}/>
     <Route path='/Project' element={<Project/>}/>
     <Route path='/resume' element={<Resume/>}/>
+    <Route path='/treat' element={<Payment/>}/>
     <Route path='*' element={<NotFound/>}/>
     </Route>
     </Routes>
