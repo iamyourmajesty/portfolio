@@ -22,6 +22,14 @@ const Project = () => {
       website : "https://theindianthinktank.onrender.com/",
       title : "The Indian Think Tank"
     },
+    {
+      id: 2,
+      breaf : "A platform to watch Youtube Movies category wise , movies are in sorted fashion.Basically they are sorted based on view counts.",
+      img : "https://res.cloudinary.com/du1n94yvw/image/upload/v1712850487/ytmovies_emhldq.png",
+      website : "https://youtubemovies.vercel.app/",
+      title : "YouTube Movies"
+    },
+   
     
   ];
 
