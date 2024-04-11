@@ -43,12 +43,12 @@ const Home = () => {
             I am fluent in <b className=' text-[blue]'>C++</b> and know a bit of <b>Python</b> and am working on a few 
             projects in the <b className=' text-[blue]'>MERN</b> stack.<br />
             I plan to learn <b className=' text-[blue]'>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b className=' text-[blue]'>coffee</b> <br/> <br/> <span>Buy Me One <CiCoffeeCup className=' text-[red] mx-2 mb-1 inline-block' style={{scale:"2.5", rotate:"15deg"}} onClick={() => navigate('/treat')} /> </span>
+            Also, I love <b className=' text-[blue]'>coffee</b> <br/> <br/> <span>Buy Me One &nbsp; <CiCoffeeCup className=' text-[red] mx-2 mb-1 inline-block animated-shake' style={{scale:"2.5", rotate:"15deg"}} onClick={() => navigate('/treat')} /> </span>
           </p>
         </div>
         
         <Tilt className=' relative -z-10'>
-        <img className='Avatar h-80 mix-blend-multiply' src={Avatar} alt="" />
+        <img className='Avatar h-80 mix-blend-multiply ' src={Avatar} alt="" />
         </Tilt>
       </div>
       <ContactMe/>
