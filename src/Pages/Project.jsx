@@ -41,7 +41,7 @@ const Project = () => {
     <div className=' flex flex-wrap gap-8  justify-center items-center w-4/5 mx-auto my-5 '>
     {items.map(item => (
       <motion.div className=' shadow-2xl p-5 shadow-[#a2a1a1] w-64 sm:w-96 h-96 relative' layoutId={item.id} >
-      <motion.img className=' w-54 sm:w-80 m-auto relative -z-10' src={item.img} alt="image" />
+      <motion.img className=' w-54 sm:w-80 m-auto relative -z-10' loading='lazy' src={item.img} alt="image" />
       <motion.h2 className=' font-bold'>{item.title}</motion.h2>
       <motion.div>{item.breaf}</motion.div> 
       <div className=' flex justify-center relative mt-2'>

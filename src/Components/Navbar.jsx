@@ -11,7 +11,7 @@ const NavDekstop = () => {
     <ul className=' my-4 flex mr-5 lg:mr-32 text-[#c2c1c2]'>
     <li className=' mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
     <li className=' mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/about' className=' flex'><BsPerson className=' mr-2 mt-1'/>About</NavLink></li>
-    <li className=' mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Project</NavLink></li>
+    <li className=' mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Projects</NavLink></li>
     <li className=' mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/resume' className=' flex'><CgFileDocument className=' mr-2 mt-1'/>Resume</NavLink></li>
     
     </ul>
@@ -29,7 +29,7 @@ const NavMobile = () => {
       <motion.ul animate={{ x : -window.innerWidth/3}}   className=' top-0 -z-10  h-screen w-1/2 fixed flex flex-col  bg-[#431f47] duration-500 ease-linear'>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 mt-24 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/about' className=' flex'><BsPerson className=' mr-2 mt-1'/>About</NavLink></li>
-      <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Project</NavLink></li>
+      <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Projects</NavLink></li>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/resume' className=' flex'><CgFileDocument className=' mr-2 mt-1'/>Resume</NavLink></li>
       </motion.ul>
       
@@ -44,7 +44,7 @@ const NavMobile = () => {
       <motion.ul animate={{ x : 100}}   className=' -z-10 h-screen w-1/2 fixed top-0 flex flex-col  bg-[#431f47] duration-500 ease-linear'>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 mt-24 text-2xl hover:underline hover:text-white'><NavLink to='/' className=' flex'><AiOutlineHome className=' mr-2 mt-1'/>Home</NavLink></li>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/about' className=' flex'><BsPerson className=' mr-2 mt-1'/>About</NavLink></li>
-      <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Project</NavLink></li>
+      <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/project' className=' flex'><BsCodeSlash className=' mr-2 mt-1'/>Projects</NavLink></li>
       <li onClick={() => setShowMenu(false)} className=' my-8 mx-4 text-2xl hover:underline hover:text-white'><NavLink to='/resume' className=' flex'><CgFileDocument className=' mr-2 mt-1'/>Resume</NavLink></li>
       </motion.ul>
       

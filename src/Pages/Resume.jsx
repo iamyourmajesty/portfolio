@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BsDownload } from "react-icons/bs";
-import pdf from "../Images/resumev1.pdf";
+import pdf from "../Images/resumev2.pdf";
 import { Document, Page, pdfjs } from 'react-pdf';
 import {Link,NavLink} from 'react-router-dom'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
